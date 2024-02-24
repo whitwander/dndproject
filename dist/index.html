@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
     <title>Dnd Project</title>
 </head>
-<body class="bg-auto" style="background: url('images/fundo.png') center center no-repeat fixed;-webkit-background-size: cover;">
-    <header class=" flex justify-center">
-        <nav class="bg-redPrincipal h-20 w-1/2 rounded-2xl drop-shadow-xl flex justify-between text-white font-semibold mt-5">
-            <div class="flex items-center ml-10 text-white">
-                Perfil
-            </div>
-            <div class="flex gap-16 items-center mr-10">
-                <a href="#">Como jogar?</a>
-                <a href="#">Raças</a>
-                <a href="#">Classes</a>
-            </div>
-        </nav>
+
+<body class="bg-auto"
+    style="background: url('images/fundo.png') center center no-repeat fixed; -webkit-background-size: cover;">
+    <header class="flex flex-col">
+        <div class=" flex justify-center">
+            <nav
+                class="bg-redPrincipal h-20 w-1/2 rounded-2xl drop-shadow-xl flex justify-between text-white font-semibold mt-5">
+                <div class="flex items-center ml-5 text-white gap-3">
+                    <div class="relative">
+                        <div class="flex gap-5">
+                            <img class="rounded-full w-14" src="images/pica_pau.png" alt="">
+                            <p class="mt-4">Pica-Pau, Nv 1</p>
+                        </div>
+                        <div class="absolute top-[74px] bg-white text-black w-52 h-40 flex flex-col gap-3 rounded-b-lg">
+                            <a class="ml-4 mt-3" href="#">Perfil</a>
+                            <a class="ml-4" href="#">Personagens</a>
+                            <a class="ml-4" href="#">Campanhas</a>
+                            <a class="ml-4" href="#">Amigos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-16 items-center mr-10">
+                    <a href="#">Como jogar?</a>
+                    <a href="#">Raças</a>
+                    <a href="#">Classes</a>
+                </div>
+            </nav>
+        </div>
     </header>
     <main class="flex justify-center mt-96">
-        <button class="bg-redPrincipal p-4 rounded-2xl text-white font-bold drop-shadow-xl items-center">CRIE SUA AVENTURA</button>
+        <button class="bg-redPrincipal p-4 rounded-2xl text-white font-bold drop-shadow-xl items-center">CRIE SUA
+            AVENTURA</button>
     </main>
     <footer></footer>
 </body>
+
 </html>
