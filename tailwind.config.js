@@ -3,8 +3,8 @@ module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'dragon': "url('dist/images/fundo.png')",
+      colors: {
+        'redPrincipal': '#742D2D'
       }
     },
   },
